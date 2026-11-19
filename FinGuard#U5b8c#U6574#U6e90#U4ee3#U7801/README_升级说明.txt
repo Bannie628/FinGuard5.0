@@ -1,0 +1,1 @@
+FinGuard 5.0 多年度 Agent 修复版\n1. 使用 python -m streamlit run app.py 启动。\n2. 多年度分析新增 get_financial_trends 工具。\n3. Agent 允许查询选中企业的历史年份，但不允许查询其他公司。\n4. 用户输入原样传入 DeepSeek，工具按问题选择。\n5. 补齐原压缩包缺少的 finguard_zscore.py 模块（内容来自 z_score.py）。\n6. 需要设置 DeepSeek API 密钥；本地测试不代表线上 API 已通过。\n
